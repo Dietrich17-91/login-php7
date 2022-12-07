@@ -20,7 +20,7 @@ echo "<div class='col-md-12'>";
     // if login was successful
     if($action=='login_success'){
         echo "<div class='alert alert-info'>";
-            echo "<strong>Привет, " . $_SESSION['firstname'] . ", с возвращением!</strong>";
+            echo "<strong>Привет, " . $_SESSION['firstname'] . ", с возвращением, путник!</strong>";
         echo "</div>";
     }
  
